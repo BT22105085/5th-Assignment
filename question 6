@@ -1,0 +1,31 @@
+ # Assignment 5
+# Question 6
+
+print ("enter the lower limit of ur range" )
+l=int(input ())
+print ("enter the upper limit of ur range" )
+u=int(input ())
+arr=[]
+for i in range (u+1):
+  arr. append (i)
+for j in range (2,u+1):
+  if arr[j]==j:
+    k=j*j
+    while k<=u:
+      if arr[k]==k:
+        arr[k]=j
+      k+=j
+print ("\nprime numbers in the given range are ->: ",end=""  )
+for x in range (l,u+1):
+  if x==1:
+    continue 
+  elif arr[x]==x:
+    print (f"{x}  ",end=""  )
+[11:26 PM, 1/26/2023] Prashant Kashyap: # Assignment 5
+# Question 7
+
+print ("The numbers which are multiple of 7 and divisible by 11 in the range (1,500) are : " )
+
+for i in range (7,501,7):
+  if i%11==0:
+    print (i)
