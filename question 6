@@ -20,12 +20,4 @@ for x in range (l,u+1):
   if x==1:
     continue 
   elif arr[x]==x:
-    print (f"{x}  ",end=""  )
-[11:26 PM, 1/26/2023] Prashant Kashyap: # Assignment 5
-# Question 7
-
-print ("The numbers which are multiple of 7 and divisible by 11 in the range (1,500) are : " )
-
-for i in range (7,501,7):
-  if i%11==0:
-    print (i)
+    print (f"{x}  ",end="" )
